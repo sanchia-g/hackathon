@@ -1,0 +1,71 @@
+body { 
+	background-color: rgb(173, 216, 230);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	color: white;
+}
+
+#book {
+	position: absolute;
+	left: 450px;
+}
+
+#journalButton {
+	position: absolute;
+	color: rgb(0, 128, 128);
+    top: 500px; 
+    left: 450px; 
+    width: 120px;
+    font-size: 30px;
+    z-index: 2;
+}
+
+#moodLogButton {
+	position: absolute;
+	color: rgb(0, 128, 128);
+    top: 500px; 
+    left: 750px; 
+    width: 200px;
+    font-size: 30px;
+    z-index: 2;
+}
+
+.infoButton {
+	position: absolute;
+    top: 10px; 
+    left: 10px; 
+    z-index: 2;
+}
+
+.info {
+	opacity: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: all 0.3s ease-in-out;
+	z-index: -1;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.info.open {
+	opacity: 1;
+	z-index: 999;
+}
+
+.info-inner {
+	border-radius: 5px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+	padding: 15px 25px;
+	text-align: center;
+	width: 380px;
+}
