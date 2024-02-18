@@ -1,0 +1,26 @@
+
+body {
+	background-color: rgb(173, 216, 230);
+}
+
+h1 {
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	font-size: 20px;
+	text-align: center;
+	color: rgb(0, 128, 128);
+ }
+
+p {
+	font-size: 20px;
+	text-align: center;
+	color: rgb(0, 128, 128);
+}
+
+.radio-button{
+	left: 450px;
+}
